@@ -1,0 +1,15 @@
+[package]
+name = "boykisserfetch"
+description="A cross-platform command-line interface (CLI) tool written in Rust to display system information in an aesthetically pleasing and entertaining manner. "
+version = "0.0.1"
+edition = "2021"
+licence = "MIT"
+include = [
+    "**/*.rs",
+    "Cargo.toml",
+    "boykissers/*"
+]
+
+[dependencies]
+kernel32-sys = "0.2.2"
+hostname = "0.3"
